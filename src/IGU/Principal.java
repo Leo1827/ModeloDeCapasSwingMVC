@@ -4,10 +4,12 @@ import javax.swing.*;
 import logica.Controladora;
 
 public class Principal extends JFrame {
+    // Componentes visuales
     private JButton btnGuardar;
     private JTextField txtNombre;
     private JTextField txtEdad;
 
+    // Instancia de la capa
     private Controladora control;
 
     public Principal() {

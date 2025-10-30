@@ -1,6 +1,6 @@
 package logica;
 import persistencia.Persistencia;
-
+import IGU.Persona;
 public class Controladora {
     Persistencia persis = new Persistencia();
 
